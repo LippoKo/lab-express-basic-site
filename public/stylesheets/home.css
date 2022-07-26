@@ -1,0 +1,55 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+body {
+	font: 400 20px Poppins;
+	background-image: url(/images/coguu.jpg);
+	background-size: cover;
+}
+
+h1,
+h3 {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+	font-style: oblique;
+	color: white;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+p {
+	text-align: center;
+	margin: 20px 400px;
+	color: white;
+}
+
+button {
+	padding: 10px;
+	margin-top: 20px;
+	background-color: rgba(137, 43, 226, 0.644);
+	border: 0;
+	border-radius: 10px;
+}
+
+button:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+}

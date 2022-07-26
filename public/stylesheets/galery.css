@@ -1,0 +1,35 @@
+body {
+	font: 400 16px Poppins;
+	background-color: rgba(140, 0, 255, 0.753);
+	display: flex;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image {
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.548);
+}
+
+.link {
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+button {
+	padding: 10px;
+	margin-top: 20px;
+	background-color: rgba(137, 43, 226, 0.644);
+	border: 0;
+	border-radius: 10px;
+}
+
+button:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+}

@@ -1,0 +1,51 @@
+body {
+	font: 400 25px Poppins;
+	background-image: url(/images/space1240.jpg);
+	background-size: cover;
+}
+
+h2 {
+	color: white;
+	background-color: rgba(126, 62, 156, 0.363);
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+	font-style: oblique;
+	color: white;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+p {
+	text-align: center;
+	margin: 20px 150px;
+	color: white;
+	background-color: rgba(126, 62, 156, 0.363);
+}
+
+button {
+	padding: 10px;
+	margin-top: 20px;
+	background-color: rgba(137, 43, 226, 0.644);
+	border: 0;
+	border-radius: 10px;
+}
+
+button:hover {
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
